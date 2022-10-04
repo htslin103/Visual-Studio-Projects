@@ -24,8 +24,6 @@ namespace WPFPracticeProject
         public MainWindow()
         {
             InitializeComponent();
-            btnAddName.FontSize = 50;
-            btnRemoveName.Content = "Booga";
             string dbConnStr = ConfigurationManager.ConnectionStrings["DefaultConnectionString"].ConnectionString;
         }
 
@@ -37,6 +35,11 @@ namespace WPFPracticeProject
         private void btnRemoveName_Click(object sender, RoutedEventArgs e)
         {
             Console.WriteLine("deleted name");
+        }
+
+        private void Hyperlink_RequestNavigate(object sender, RequestNavigateEventArgs e)
+        {
+            System.Diagnostics.Process.Start(e.Uri.AbsoluteUri);
         }
     }
 }
