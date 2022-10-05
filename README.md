@@ -13,7 +13,7 @@ Windows Server 2022: Standard and Datacenter.
 Windows Server 2019: Standard and Datacenter.
 Windows Server 2016: Standard and Datacenter.
 
-##Usage Instructions 
+## Usage Instructions 
 1. Go to the location where you have saved the Random Number Generator folder 
 2. Click on the Random Number Generator folder, then the bin folder, then the Debug folder.
 The file path should look similar to this: YourStoredLocation\Random Number Generator\Random Number Generator\bin\Debug
@@ -25,5 +25,7 @@ The file path should look similar to this: YourStoredLocation\Random Number Gene
 1. Open project in visual studio
 2. From the toolbar, select Test->Run-> All Tests
 
-##Version 
+## Version 
 1.0 
+
+
