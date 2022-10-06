@@ -14,8 +14,7 @@ namespace RandomNumberGenerator.Classes
             var rand = new Random();
             int last_index = arr.Length - 1;        
             while (last_index > 0)
-            {
-                
+            {             
                 int rand_index = rand.Next(0, last_index);
                 int temp = arr[last_index];
                 arr[last_index] = arr[rand_index];
@@ -28,9 +27,10 @@ namespace RandomNumberGenerator.Classes
 
         public static void PrintList(int[] newArray)
         {
+            Console.WriteLine("Randomized List \n");
             foreach (int item in newArray)
             {
-                Console.Write("{0}\t", item);
+                Console.Write("{0} ", item);
             }
         }
     }

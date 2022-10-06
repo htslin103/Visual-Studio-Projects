@@ -22,8 +22,8 @@ The file path should look similar to this: YourStoredLocation\Random Number Gene
 
 ## Testing
 
-1. Open project in visual studio
-2. From the toolbar, select Test->Run-> All Tests
+1. Open the project in visual studio
+2. From the toolbar, select Test->Run All Tests
 
 ## Version 
 1.0 
